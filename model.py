@@ -15,7 +15,8 @@ except:
     pass
 
 # MODEL NUMBER
-i=5
+# JUST IGNORE IT
+i=1
 
 # COPYED FROM https://analyticsindiamag.com/how-to-implement-cnn-model-to-count-fingers-and-distinguish-between-left-and-right-hand/
 # AND MAKE SOME CHANGES
@@ -57,7 +58,7 @@ valid_batches=ImageDataGenerator(preprocessing_function=tf.keras.applications.vg
 #TRAIN MODEL IT WILL SAVE WEIGHTS AFTER EVERY 20 ITERATIONS
 
 model.fit(x=train_batches,validation_data=valid_batches,epochs=20,verbose=2,steps_per_epoch=238,validation_steps=49)
-model.save_weights('model/weight_21_'+str(i)+'.h5')
+model.save_weights('model/weight_20_'+str(i)+'.h5')
 print("model/weight_20.h5 SAVED")
 
 model.fit(x=train_batches,validation_data=valid_batches,epochs=20,verbose=2,steps_per_epoch=238,validation_steps=49)
@@ -65,7 +66,7 @@ model.save_weights('model/weight_40_'+str(i)+'.h5')
 print("model/weight_40.h5 SAVED")
 
 model.fit(x=train_batches,validation_data=valid_batches,epochs=20,verbose=2,steps_per_epoch=238,validation_steps=49)
-model.save_weights('model/weight_600_'+str(i)+'.h5')
+model.save_weights('model/weight_60_'+str(i)+'.h5')
 print("model/weight_60.h5 SAVED")
 
 

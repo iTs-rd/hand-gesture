@@ -58,5 +58,5 @@ while cap.isOpened():
     cv2.imshow('mask',mask)
 
     np.savetxt('data/hsv_values.txt',hsv_values)
-    if cv2.waitKey(1)==27:
+    if cv2.waitKey(1)==113 or cv2.waitKey(1)==27:
         break

@@ -33,17 +33,6 @@ while cap.isOpened():
         # IF DETECTED_NUMBER IS SINGLE DIGIT THEN ADD IT TO PIN
         if detected_number <= 9:
             pin += str(detected_number)
-        # ELSE SHOW AN ERROR MESSAGE
-        elif detected_number == 10:
-            img = cv2.imread('data/wrong_number.png',1)
-            cv2.imshow('wrong_number', img)
-            cv2.waitKey(1200)
-            cv2.destroyWindow('wrong_number')
-        else:
-            img = cv2.imread('data/error_message.png',1)
-            cv2.imshow('error_message', img)
-            cv2.waitKey(1200)
-            cv2.destroyWindow('error_message')
 
         # CHECK PIN HAVE 6 DIGIT OR NOT IF TRUE THEN PRINT RESULT
         if len(pin) == 6:
@@ -66,7 +55,7 @@ while cap.isOpened():
     cv2.imshow("roi2", roi2)
 
     # TO EXIT PROGRAM
-    if cv2.waitKey(1) == 27:
+    if cv2.waitKey(1)==113 or cv2.waitKey(1)==27:
         img=cv2.imread('data/exit_message.png',1)
         cv2.imshow('exit_message',img)
         cv2.waitKey(2000)
