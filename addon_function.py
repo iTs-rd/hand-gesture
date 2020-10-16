@@ -38,7 +38,7 @@ def draw_roi(frame):
     x2=817
 
     # The increment/decrement by 1 is to compensate for the bounding box
-    cv2.rectangle(frame, (x1 - 1, y1 - 1), (x2 + 1, y2 + 1), (0, 255, 0), 1)
+    cv2.rectangle(frame, (x1 - 1, y1 - 1), (x2 + 1, y2 + 1), (255, 0, 0), 1)
     roi2 = frame[y1:y2, x1:x2]
     roi2 = cv2.resize(roi2, (64, 64))
     return frame,roi1,roi2
