@@ -4,6 +4,11 @@
 <strong>In this project user can input pin code of any district by showing his hand</strong><br>
 For input we use webcam to take live video input of user. User can show no of finger for all 6 digit (one digit at a time) with the help of machine learning program will automatically count how many finger user is showing. After 6-digit number is generated it will show the result.<br>
 <strong>NOTE:-</strong>there are two boxes if you need to enter number >5 than use both boxes one hand in each else if you need to enter number <5 you can use any of the boxes <br> 
+
+
+<strong>Youtube video of results</strong><br>
+<a href="https://www.youtube.com/watch?v=IRxZaS21rcs"><img src="data/thumbnail.png"></a>
+
 <h3>Description of all files</h3>
 <h5>index.py</h5>
 
