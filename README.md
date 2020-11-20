@@ -6,7 +6,7 @@ For input we use webcam to take live video input of user. User can show no of fi
 <strong>NOTE:-</strong>there are two boxes if you need to enter number >5 than use both boxes one hand in each else if you need to enter number <5 you can use any of the boxes <br> 
 
 
-<strong>Youtube video of results</strong><br>
+<a href="https://www.youtube.com/watch?v=IRxZaS21rcs"><strong>Youtube video of results</strong></a><br>
 <a href="https://www.youtube.com/watch?v=IRxZaS21rcs"><img src="data/thumbnail.png"></a>
 
 <h3>Description of all files</h3>
