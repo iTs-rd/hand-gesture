@@ -5,7 +5,7 @@
 For input we use webcam to take live video input of user. User can input number by showing his/her fingers for all 6 digits one by one (one digit at a time) with the help of machine learning program will automatically count how many finger user is showing. After 6-digit number is generated it will show the result.<br>
 <strong>NOTE:-</strong>there are two boxes if you need to enter number >5 than use both boxes one hand in each else if you need to enter number <5 you can use any of the boxes <br> 
 
-
+<h3><a href="https://www.youtube.com/watch?v=IRxZaS21rcs">https://www.youtube.com/watch?v=IRxZaS21rcs</a></h3><br>
 <a href="https://www.youtube.com/watch?v=IRxZaS21rcs"><strong>Youtube video of results</strong></a><br>
 <a href="https://www.youtube.com/watch?v=IRxZaS21rcs"><img src="data/thumbnail.png"></a>
 
